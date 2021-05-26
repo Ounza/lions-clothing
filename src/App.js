@@ -38,6 +38,7 @@ class App extends Component {
     this.unsubscribeFromAuth();
   }  
   render() { 
+    console.log(this.props.currentUser);
     return ( 
       <div className="App">
       <Header/>
