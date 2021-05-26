@@ -28,10 +28,9 @@ class App extends Component {
             });
           });
      
-        } else 
-        {
-          this.props.setCurrentUser({userAuth});
-        }
+        } 
+          this.props.setCurrentUser(userAuth);
+        
       });
     }
   componentWillUnmount(){
